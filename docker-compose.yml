@@ -301,7 +301,7 @@ services:
     depends_on:
       - mongo
       - memcached
-      - elasticsearch7
+      - elasticsearch710
     image: edxops/forum:${OPENEDX_RELEASE:-latest}
     stdin_open: true
     tty: true
